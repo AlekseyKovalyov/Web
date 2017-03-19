@@ -14,7 +14,16 @@ body{
     background-color: whitesmoke;
 }
 
-#navigation {
+#navigation_open {
+    height: 60px;
+    width: 60px;
+    position: fixed;
+    top: 30px;
+    left: -100px;
+    background-color: white;
+}
+
+#navigation_panel {
     height: 340px;
     width: 320px;
     background-color: rgb(192, 192, 192);
@@ -22,7 +31,7 @@ body{
     top: 30px;
 }
 
-#navigation .additional{
+#navigation_panel .additional{
     background-color: #838585;
     height: 60px;
 }
@@ -37,8 +46,8 @@ body{
 }
 
 #img_nav_close_hover{
-    position: fixed;
-    left: 270px;
+    position: absolute;
+    left: 260px;
     display: none;
 }
 
