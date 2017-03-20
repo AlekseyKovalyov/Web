@@ -1,0 +1,52 @@
+html{
+    position: relative;
+}
+
+body{
+    height: 1000px;
+    background-color: rgb(0, 0, 0);
+}
+
+#frame {
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 100%;
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+#login_form {
+    text-align: center;
+    background-color: #e0ddda;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 25%;
+    height: 35%;
+    width: 30%;
+    border: solid black;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+
+}
+
+#submit_login {
+    background-color: black;
+    margin: 10% auto auto;
+    height: 10%;
+    width: 40%;
+    text-align: center;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.login_form_field_name {
+    margin: 2%;
+    text-align: center;
+    font-size: 28px;
+    font-family: NanumGothic, serif;
+}
+
+.login_form_field {
+    text-align: center;
+    margin-bottom: 5%;
+}

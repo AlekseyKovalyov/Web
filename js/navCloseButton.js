@@ -17,8 +17,8 @@ $(document).ready(function () {
 
 
     $(".nav_close_button").click(function () {
-        $("#navigation_panel").animate({"left": '-=350'}, 1000);
-        $("#navigation_open").animate({"left": '+=100'}, 1000);
+        $("#navigation_panel").animate({"left": '-=350'}, 200);
+        $("#navigation_open").animate({"left": '+=100'}, 200);
     });
 
     $(".nav_open_button").mouseover(function () {
@@ -33,8 +33,8 @@ $(document).ready(function () {
 
 
     $(".nav_open_button").click(function () {
-        $("#navigation_panel").animate({"left": '+=350'}, 1000);
-        $("#navigation_open").animate({"left": '-=100'}, 1000);
+        $("#navigation_panel").animate({"left": '+=350'}, 200);
+        $("#navigation_open").animate({"left": '-=100'}, 200);
     });
 
 
