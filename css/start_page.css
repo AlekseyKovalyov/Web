@@ -39,14 +39,30 @@ body{
     border-bottom-left-radius: 25px;
 }
 
+#submit_login_text {
+    padding-top: 3%;
+    text-align: center;
+    font-family: NanumGothic, serif;
+    color: white;
+    font-weight: 900;
+    font-size: 20px;
+
+}
+
 .login_form_field_name {
-    margin: 2%;
+    width: 50%;
+    margin: 2% auto auto;
     text-align: center;
     font-size: 28px;
     font-family: NanumGothic, serif;
 }
 
 .login_form_field {
+    font-size: 28px;
+    font-weight: bold;
+    height: 10%;
+    width: 50%;
     text-align: center;
     margin-bottom: 5%;
+    border-radius: 25px;
 }
