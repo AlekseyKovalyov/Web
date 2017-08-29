@@ -2,6 +2,7 @@
   <component name="GwtSdkManager">
     <gwt-sdk-list>
       <gwt-sdk url="file://$USER_HOME$/eclipse/plugins/gwt-2.5.1" />
+      <gwt-sdk url="file://$USER_HOME$/eclipse/plugins/gwt-2.8.1" />
     </gwt-sdk-list>
   </component>
 </application>
